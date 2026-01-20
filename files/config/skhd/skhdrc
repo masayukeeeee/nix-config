@@ -1,0 +1,47 @@
+# focus window
+alt - n: yabai -m window --focus next || yabai -m display --focus next
+alt - b: yabai -m window --focus prev || yabai -m display --focus prev
+
+# move managed window
+shift + cmd - h: yabai -m window --warp next
+shift + cmd - j: yabai -m window --warp prev
+
+# balance size of windows
+shift + ctrl + cmd - 0: yabai -m space --balance
+
+# make floating window fill screen
+shift + ctrl + cmd - m: yabai -m window --grid 1:1:0:0:1:1
+
+# make floating window fill left-half of screen
+shift + ctrl + cmd - left: yabai -m window --grid 1:2:0:0:1:1
+shift + ctrl + cmd - right: yabai -m window --grid 1:2:1:0:1:1
+shift + ctrl + cmd - up: yabai -m window --grid 2:1:1:0:1:1
+shift + ctrl + cmd - down: yabai -m window --grid 2:1:0:1:1:1
+shift + ctrl + cmd - c: yabai -m window --grid 8:8:1:1:6:6
+
+# move window between display
+shift + ctrl + alt - left: yabai -m window --display next; yabai -m display --focus next; yabai -m window --focus last; yabai -m window --grid 1:1:0:0:1:1;
+shift + ctrl + alt - right: yabai -m window --display prev; yabai -m display --focus prev; yabai -m window --focus last; yabai -m window --grid 1:1:0:0:1:1;
+
+# swap window(よく使う)
+shift + alt - h: yabai -m window --swap west
+shift + alt - j: yabai -m window --swap south
+shift + alt - k: yabai -m window --swap north
+shift + alt - l: yabai -m window --swap east
+
+# increase window size(よく使う)
+shift + alt - a: yabai -m window --resize left:-20:0
+shift + alt - s: yabai -m window --resize bottom:0:20
+shift + alt - w: yabai -m window --resize top:0:-20
+shift + alt - d: yabai -m window --resize right:20:0
+
+# open app
+# shift + ctrl + cmd - k: open /Applications/kitty.app
+shift + ctrl + cmd - k: open /Applications/iTerm.app
+shift + ctrl + cmd - n: open /Applications/Notion.app
+shift + ctrl + cmd - g: open /Applications/Google\ Chrome.app
+shift + ctrl + cmd - v: open /Applications/Visual\ Studio\ Code.app
+shift + ctrl + cmd - s: open /Applications/Slack.app
+shift + ctrl + cmd - r: open /Applications/RStudio.app
+shift + ctrl + cmd - b: open /Applications/Bitwarden.app
+shift + ctrl + cmd - l: open /Applications/Cursor.app
