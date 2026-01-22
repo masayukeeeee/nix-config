@@ -5,6 +5,8 @@
 		./apps/yabai/default.nix
 		./apps/skhd/default.nix
     ./apps/nvim/default.nix
+    ./apps/fzf/default.nix
+    ./apps/zsh/default.nix
   ];
 
   # --- Home Manager設定 ---
@@ -16,10 +18,10 @@
     jq
     tree
     duckdb
-    fzf
-    git-delta
+    delta
 		gh
 		bat
+    uv
   ];
 
   # --- シェル設定 (zsh) ---

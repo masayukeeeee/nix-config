@@ -5,8 +5,53 @@
 	system.stateVersion = 5;
 
 	system.defaults = {
+		NSGlobalDomain = {
+			AppleInterfaceStyle = "Dark";
+			AppleShowAllFiles = true;
+			AppleShowAllExtensions = true;
+			AppleShowScrollBars = "Always";
+			ApplePressAndHoldEnabled = false;
+			InitialKeyRepeat = 10;
+			KeyRepeat = 2;
+			NSNavPanelExpandedStateForSaveMode = true;
+			NSNavPanelExpandedStateForSaveMode2 = true;
+			NSTextShowsControlCharacters = true;
+			"com.apple.mouse.tapBehavior" = 1;
+		};
+
+		trackpad = {
+			# タップによるクリックを有効化する
+			Clicking = true;
+
+			# トラックパッドでの右クリックを有効化する
+			TrackpadRightClick = true;
+
+			# 3本指でのドラッグを有効化する
+			TrackpadThreeFingerDrag = true;
+		};
+
 		finder = {
-				AppleShowAllFiles = true;
+			ShowStatusBar = true;
+			ShowPathbar = true;
+			FXPreferredViewStyle = "clmv";
+			FXDefaultSearchScope = "SCcf";
+			FXEnableExtensionChangeWarning = false;
+		};
+
+		dock = {
+			autohide = true;
+			tilesize = 10;
+		};
+
+		screencapture = {
+			location = "/Users/masayukisakai/Downloads/screencapture";
+			type = "png";
+			disable-shadow = true;
+
+			# 保存前にサムネイルを表示する
+			show-thumbnail = true;
+
+			target = "file";
 		};
 	};
 
@@ -43,6 +88,8 @@
 			"displaylink"
 		];
 	};
+
+	programs.zsh.enable = true;
 
 	programs.zsh.interactiveShellInit = ''
 		# VS Codeのパスを通す
