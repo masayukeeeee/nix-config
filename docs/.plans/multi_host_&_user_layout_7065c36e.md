@@ -83,3 +83,4 @@ todos:
 
 - `darwin-rebuild switch --flake .#MasayukiSakainoMacBook-Air` と `...#2023-X0160` の両方が動く
 - home-manager が `masayukisakai` と `msakai` の両方を定義できる（ホスト側で有効化ユーザーを選べる）
+

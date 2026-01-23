@@ -59,3 +59,4 @@ todos:
 - `make help` で全ターゲットと説明が見える
 - 破壊的操作（`uninstall`, `cleanup-all`）は実行前に警告が出る
 - `apply` が `#MasayukiSakainoMacBook-Air` に対して動く
+
