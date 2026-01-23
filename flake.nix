@@ -20,20 +20,22 @@
 	outputs = { self, nixpkgs, home-manager, nix-darwin }: {
 		darwinConfigurations = {
 			"MasayukiSakainoMacBook-Air" = nix-darwin.lib.darwinSystem {
+				# NOTE: Avoid `builtins.currentSystem` here; flake evaluation is pure by default.
 				system = "aarch64-darwin";
-
+				specialArgs = { inherit self; };
 				modules = [
-					./modules/darwin.nix
-
+					./hosts/MasayukiSakainoMacBook-Air/default.nix
 					home-manager.darwinModules.home-manager
-					{
-						home-manager.useGlobalPkgs = true;
-						home-manager.useUserPackages = true;
+				];
+			};
 
-						home-manager.extraSpecialArgs = { inherit self; };
-
-						home-manager.users.masayukisakai = import ./modules/home.nix;
-					}
+			"2023-X0160" = nix-darwin.lib.darwinSystem {
+				# NOTE: Avoid `builtins.currentSystem` here; flake evaluation is pure by default.
+				system = "aarch64-darwin";
+				specialArgs = { inherit self; };
+				modules = [
+					./hosts/2023-X0160/default.nix
+					home-manager.darwinModules.home-manager
 				];
 			};
 		};
