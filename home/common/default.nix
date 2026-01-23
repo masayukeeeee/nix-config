@@ -11,6 +11,7 @@
     ../../modules/apps/nvim/default.nix
     ../../modules/apps/fzf/default.nix
     ../../modules/apps/zsh/default.nix
+    ../../modules/apps/tmux/default.nix
   ];
 }
 

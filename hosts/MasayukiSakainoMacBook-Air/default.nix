@@ -9,4 +9,3 @@
 
   home-manager.users.masayukisakai = import ../../users/masayukisakai/home.nix;
 }
-
