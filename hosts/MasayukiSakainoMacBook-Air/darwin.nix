@@ -11,7 +11,7 @@
       AppleShowAllExtensions = true;
       AppleShowScrollBars = "Always";
       ApplePressAndHoldEnabled = false;
-      InitialKeyRepeat = 10;
+      InitialKeyRepeat = 12;
       KeyRepeat = 2;
       NSNavPanelExpandedStateForSaveMode = true;
       NSNavPanelExpandedStateForSaveMode2 = true;

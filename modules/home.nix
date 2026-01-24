@@ -7,6 +7,7 @@
     ./apps/nvim/default.nix
     ./apps/fzf/default.nix
     ./apps/zsh/default.nix
+    ./apps/iterm2/default.nix
   ];
 
   # --- Home Manager設定 ---

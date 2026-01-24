@@ -16,15 +16,9 @@
       {
         name = "zsh-history-substring-search";
         src = pkgs.zsh-history-substring-search;
+        file = "share/zsh-history-substring-search/zsh-history-substring-search.zsh";
       }
     ];
-
-    # --- Powerlevel10k Instant Prompt ---
-    initExtraFirst = ''
-      if [[ -r "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh" ]]; then
-        source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
-      fi
-    '';
 
     # --- 履歴設定 ---
     history = {
@@ -65,7 +59,12 @@
     };
 
     # --- その他の設定 ---
-    initExtra = ''
+    initContent = ''
+      # --- Powerlevel10k Instant Prompt ---
+      if [[ -r "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh" ]]; then
+        source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
+      fi
+
       # --- Option ---
       setopt print_eight_bit
       setopt no_beep
