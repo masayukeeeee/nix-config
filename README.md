@@ -57,4 +57,6 @@ make uninstall
 Notes:
 - This may require `sudo`.
 - `make uninstall` will error if `/nix/nix-installer` is not found.
-
+- Visual Studio Code
+  - If you don't have properly fonts, garbled characters could be displayed in terminals in vscode.
+  - When it happend, please add `MesloLGS NF` into fonts in terminal setting.

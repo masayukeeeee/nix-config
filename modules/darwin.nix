@@ -4,6 +4,15 @@
 
 	system.stateVersion = 5;
 
+	fonts.packages = [
+    pkgs.meslo-lgs-nf          # ターミナル用 (P10k推奨)
+    
+    # ▼ おすすめを追加
+    pkgs.udev-gothic           # 日本語×プログラミングの最強格
+    pkgs.hackgen-font          # 定番の日本語対応フォント
+    pkgs.jetbrains-mono        # 美しい合字を使いたい場合
+  ];
+
 	system.defaults = {
 		NSGlobalDomain = {
 			AppleInterfaceStyle = "Dark";
