@@ -102,6 +102,9 @@
 	programs.zsh.enable = true;
 
 	programs.zsh.interactiveShellInit = ''
+		# homebrewのパスを通す
+		eval "$(/opt/homebrew/bin/brew shellenv)"
+
 		# VS Codeのパスを通す
 		if [ -d "/Applications/Visual Studio Code.app/Contents/Resources/app/bin" ]; then
 				export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
