@@ -1,5 +1,5 @@
 { pkgs, ... }: {
-	nix.enable = false;
+	nix.enable = true;
 	system.primaryUser = "masayukisakai";
 
 	system.stateVersion = 5;
