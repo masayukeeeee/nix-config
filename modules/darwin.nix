@@ -95,6 +95,7 @@
 			"iterm2"
 			"visual-studio-code"
 			"displaylink"
+			"spotify"
 		];
 	};
 
