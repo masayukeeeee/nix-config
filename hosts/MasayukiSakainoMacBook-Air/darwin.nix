@@ -77,12 +77,16 @@
       "iterm2"
       "visual-studio-code"
       "displaylink"
+      "spotify"
     ];
   };
 
   programs.zsh.enable = true;
 
   programs.zsh.interactiveShellInit = ''
+    # homebrewのパスを通す
+		eval "$(/opt/homebrew/bin/brew shellenv)"
+
     # Add VS Code CLI to PATH
     if [ -d "/Applications/Visual Studio Code.app/Contents/Resources/app/bin" ]; then
       export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
