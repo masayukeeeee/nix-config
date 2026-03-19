@@ -23,6 +23,7 @@
 		gh
 		bat
     uv
+    gemini-cli
   ];
 
   # --- シェル設定 (zsh) ---
