@@ -7,5 +7,6 @@
     gh
     bat
     uv
+    gemini-cli
   ];
 }
