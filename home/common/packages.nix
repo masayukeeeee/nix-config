@@ -8,5 +8,8 @@
     bat
     uv
     gemini-cli
+    gcc
+    gnumake
+    tree-sitter
   ];
 }
