@@ -18,5 +18,5 @@ vim.cmd([[
 	set clipboard=unnamedplus
 	syntax on
 
-	ignoremap <silent> jk <ESG>
+	inoremap <silent> jk <ESC>
 ]])
