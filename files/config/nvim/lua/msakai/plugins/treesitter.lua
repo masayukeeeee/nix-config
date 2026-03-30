@@ -5,7 +5,7 @@ return {
     local configs = require("nvim-treesitter.configs")
 
     configs.setup({
-      enure_installed = {
+      ensure_installed = {
         "bash",
         "css",
         "html",
