@@ -23,7 +23,7 @@ return {
       "java",
       "r",
       "sql",
-      "sqlx",
+      -- "sqlx",
       "markdown"
     },
     sync_install = false,
