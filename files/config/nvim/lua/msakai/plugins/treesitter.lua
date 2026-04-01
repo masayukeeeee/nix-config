@@ -1,5 +1,6 @@
 return {
   "nvim-treesitter/nvim-treesitter",
+  branch = "master",
   build = ":TSUpdate",
   event = { "BufReadPre", "BufNewFile" }, -- 読み込みタイミングを明示してエラーを防ぐ
   main = "nvim-treesitter.configs",       -- 実行するメインモジュールを指定
