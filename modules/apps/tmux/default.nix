@@ -28,6 +28,11 @@
       # default shell
       set -g default-command "''${SHELL}"
 
+      # --- クリップボード連携 (macOS用) ---
+      # 選択して 'y' またはマウスを離したときにシステムクリップボードへ送る
+      bind-key -T copy-mode-vi y send -X copy-pipe-and-cancel "pbcopy"
+      bind-key -T copy-mode-vi MouseDragEnd1Pane send -X copy-pipe-and-cancel "pbcopy"
+
       # --- Pane Navigation (h,j,k,l) ---
       bind h select-pane -L
       bind j select-pane -D
