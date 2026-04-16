@@ -24,6 +24,7 @@
 		bat
     uv
     gemini-cli
+    bitwarden-cli
   ];
 
   # --- シェル設定 (zsh) ---

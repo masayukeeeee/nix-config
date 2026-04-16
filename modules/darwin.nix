@@ -89,7 +89,6 @@
 		casks = [
 			"google-chrome"
 			"bitwarden"
-			"bitwarden-cli"
 			"notion"
 			"slack"
 			"karabiner-elements"
