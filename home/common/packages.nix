@@ -8,6 +8,7 @@
     bat
     uv
     gemini-cli
+    bitwarden-cli
     gcc
     gnumake
     tree-sitter
