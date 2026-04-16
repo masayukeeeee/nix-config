@@ -78,7 +78,7 @@
       "visual-studio-code"
       "displaylink"
       "spotify"
-      "ollama"
+      "ollama-app"
     ];
   };
 
