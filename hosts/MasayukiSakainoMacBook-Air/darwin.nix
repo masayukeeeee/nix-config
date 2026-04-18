@@ -79,6 +79,8 @@
       "displaylink"
       "spotify"
       "ollama-app"
+      "cursor"
+      "codex"
     ];
   };
 
