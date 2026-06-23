@@ -81,6 +81,7 @@
       "ollama-app"
       "cursor"
       "codex"
+      "microsoft-teams"
     ];
   };
 
