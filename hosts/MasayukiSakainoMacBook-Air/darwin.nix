@@ -82,6 +82,7 @@
       "cursor"
       "codex"
       "microsoft-teams"
+      "blender"
     ];
   };
 
