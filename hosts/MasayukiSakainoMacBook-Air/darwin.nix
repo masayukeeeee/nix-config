@@ -82,8 +82,9 @@
       "cursor"
       "codex"
       "microsoft-teams"
-      "blender"
+      "blender@lts"
       "zen"
+      "firefox"
     ];
   };
 
