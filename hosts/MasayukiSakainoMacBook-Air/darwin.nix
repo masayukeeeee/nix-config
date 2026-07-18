@@ -83,6 +83,7 @@
       "codex"
       "microsoft-teams"
       "blender"
+      "zen"
     ];
   };
 
