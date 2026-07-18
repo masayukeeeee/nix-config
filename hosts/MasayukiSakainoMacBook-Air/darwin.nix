@@ -81,6 +81,9 @@
       "ollama-app"
       "cursor"
       "codex"
+      "microsoft-teams"
+      "blender"
+      "zen"
     ];
   };
 
