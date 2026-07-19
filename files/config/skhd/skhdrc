@@ -20,8 +20,20 @@ shift + ctrl + cmd - down: yabai -m window --grid 2:1:0:1:1:1
 shift + ctrl + cmd - c: yabai -m window --grid 8:8:1:1:6:6
 
 # move window between display
-shift + ctrl + alt - left: yabai -m window --display next; yabai -m display --focus next; yabai -m window --focus last; yabai -m window --grid 1:1:0:0:1:1;
-shift + ctrl + alt - right: yabai -m window --display prev; yabai -m display --focus prev; yabai -m window --focus last; yabai -m window --grid 1:1:0:0:1:1;
+# shift + ctrl + alt - left: yabai -m window --display next; yabai -m display --focus next; yabai -m window --focus last; yabai -m window --grid 1:1:0:0:1:1;
+# shift + ctrl + alt - right: yabai -m window --display prev; yabai -m display --focus prev; yabai -m window --focus last; yabai -m window --grid 1:1:0:0:1:1;
+
+# vimlike: second use for left, right, up, down
+# shift + ctrl + alt - h: left
+# shift + ctrl + alt - j: down
+# shift + ctrl + alt - k: up
+# shift + ctrl + alt - l: right
+
+# hhkblike: second use for left, right, up, down
+shift + ctrl + alt - 0x21 : skhd -k "up"   
+shift + ctrl + alt - /    : skhd -k "down" 
+shift + ctrl + alt - ;    : skhd -k "left" 
+shift + ctrl + alt - '    : skhd -k "right"
 
 # swap window(よく使う)
 shift + alt - h: yabai -m window --swap west
