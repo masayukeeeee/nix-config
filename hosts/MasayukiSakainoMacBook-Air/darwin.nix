@@ -85,7 +85,6 @@
       "blender@lts"
       "zen"
       "firefox"
-      "thebrowsercompany-dia"
     ];
   };
 
