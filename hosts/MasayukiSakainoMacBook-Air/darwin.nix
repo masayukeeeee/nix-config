@@ -85,6 +85,7 @@
       "blender@lts"
       "zen"
       "firefox"
+      "chatgpt"
     ];
   };
 
