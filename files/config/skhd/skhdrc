@@ -39,7 +39,7 @@ shift + alt - d: yabai -m window --resize right:20:0
 # shift + ctrl + cmd - k: open /Applications/kitty.app
 shift + ctrl + cmd - k: open /Applications/iTerm.app
 shift + ctrl + cmd - n: open /Applications/Notion.app
-shift + ctrl + cmd - f: open /Applications/Firefox.app
+shift + ctrl + cmd - g: open /Applications/Firefox.app
 shift + ctrl + cmd - v: open /Applications/Visual\ Studio\ Code.app
 # shift + ctrl + cmd - s: open /Applications/Slack.app
 shift + ctrl + cmd - f: open -a Finder
