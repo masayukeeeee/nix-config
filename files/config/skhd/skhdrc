@@ -17,7 +17,7 @@ shift + ctrl + cmd - left: yabai -m window --grid 1:2:0:0:1:1
 shift + ctrl + cmd - right: yabai -m window --grid 1:2:1:0:1:1
 shift + ctrl + cmd - up: yabai -m window --grid 2:1:1:0:1:1
 shift + ctrl + cmd - down: yabai -m window --grid 2:1:0:1:1:1
-shift + ctrl + cmd - c: yabai -m window --grid 8:8:1:1:6:6
+# shift + ctrl + cmd - c: yabai -m window --grid 8:8:1:1:6:6
 
 # move window between display
 # shift + ctrl + alt - left: yabai -m window --display next; yabai -m display --focus next; yabai -m window --focus last; yabai -m window --grid 1:1:0:0:1:1;
@@ -42,6 +42,7 @@ shift + ctrl + cmd - n: open /Applications/Notion.app
 shift + ctrl + cmd - g: open /Applications/Firefox.app
 shift + ctrl + cmd - v: open /Applications/Visual\ Studio\ Code.app
 # shift + ctrl + cmd - s: open /Applications/Slack.app
+shift + ctrl + cmd - s: open /Applications/ChatGPT.app
 shift + ctrl + cmd - f: open -a Finder
 shift + ctrl + cmd - r: open /Applications/RStudio.app
 shift + ctrl + cmd - b: open /Applications/Bitwarden.app
