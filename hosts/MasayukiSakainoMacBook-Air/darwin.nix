@@ -68,6 +68,9 @@
   homebrew = {
     enable = true;
     onActivation.cleanup = "zap";
+    brews = [
+      "herdr"
+    ];
     casks = [
       "google-chrome"
       "bitwarden"
