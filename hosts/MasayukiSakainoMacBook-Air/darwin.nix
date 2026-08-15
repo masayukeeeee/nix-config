@@ -78,6 +78,7 @@
       "slack"
       "karabiner-elements"
       "iterm2"
+      "ghostty"
       "visual-studio-code"
       "displaylink"
       "spotify"
