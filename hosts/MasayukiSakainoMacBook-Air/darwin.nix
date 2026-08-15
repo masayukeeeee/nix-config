@@ -79,6 +79,7 @@
       "karabiner-elements"
       "iterm2"
       "ghostty"
+      "kitty"
       "visual-studio-code"
       "displaylink"
       "spotify"
