@@ -22,7 +22,9 @@ stdenvNoCC.mkDerivation (finalAttrs: {
     makeWrapper \
       "$out/libexec/tode/bin/tode" \
       "$out/bin/tode" \
-      --set TODE_INSTALL_ROOT "$out/libexec/tode"
+      --set TODE_INSTALL_ROOT "$out/libexec/tode" \
+      --set TODE_TERMINAL_BROWSER_BIN \
+        "$out/libexec/tode/vendor/terminal-browser/bin/terminal-browser"
 
     runHook postInstall
   '';

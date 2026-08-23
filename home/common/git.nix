@@ -3,6 +3,7 @@
     enable = true;
     settings = {
       init.defaultBranch = "main";
+      ghq.root = "~/projects";
       alias = {
         ad = "add";
         br = "branch";
@@ -15,4 +16,3 @@
     };
   };
 }
-

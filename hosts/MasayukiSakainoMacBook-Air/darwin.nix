@@ -70,6 +70,7 @@
     onActivation.cleanup = "zap";
     brews = [
       "herdr"
+      "ghq"
     ];
     casks = [
       "google-chrome"
@@ -106,4 +107,3 @@
     fi
   '';
 }
-

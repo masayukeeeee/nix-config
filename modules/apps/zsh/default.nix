@@ -84,6 +84,17 @@
       bindkey '^[[A' history-substring-search-up
       bindkey '^[[B' history-substring-search-down
 
+      # --- ghq + fzf repository search ---
+      ghq-fzf-widget() {
+        local selected
+        selected="$(ghq list --full-path | fzf --prompt='Repository> ')" || return
+        [[ -n "$selected" ]] || return
+        builtin cd -- "$selected"
+        zle reset-prompt
+      }
+      zle -N ghq-fzf-widget
+      bindkey '^G' ghq-fzf-widget
+
       # --- NVM (Homebrew版) ---
       # Node.jsもNix管理にするなら削除可能です
       export NVM_DIR="$HOME/.nvm"
