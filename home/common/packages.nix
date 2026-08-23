@@ -2,6 +2,7 @@
 
 let
   terminal-browser = pkgs.callPackage ../../packages/terminal-browser.nix { };
+  terminal-code = pkgs.callPackage ../../packages/terminal-code.nix { };
 in
 {
   home.packages = with pkgs; [
@@ -18,5 +19,6 @@ in
     gnumake
     tree-sitter
     terminal-browser
+    terminal-code
   ];
 }
