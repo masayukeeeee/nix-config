@@ -1,4 +1,9 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+
+let
+  terminal-browser = pkgs.callPackage ../../packages/terminal-browser.nix { };
+in
+{
   home.packages = with pkgs; [
     jq
     tree
@@ -12,5 +17,6 @@
     gcc
     gnumake
     tree-sitter
+    terminal-browser
   ];
 }

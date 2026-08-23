@@ -49,4 +49,4 @@ shift + ctrl + cmd - r: open /Applications/RStudio.app
 shift + ctrl + cmd - b: open /Applications/Bitwarden.app
 shift + ctrl + cmd - l: open /Applications/Cursor.app
 shift + ctrl + cmd - j: open -a Journal
-
+shift + ctrl + cmd - d: open -a 'ChatGPT'
