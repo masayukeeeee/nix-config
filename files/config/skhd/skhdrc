@@ -50,3 +50,4 @@ shift + ctrl + cmd - b: open /Applications/Bitwarden.app
 shift + ctrl + cmd - l: open /Applications/Cursor.app
 shift + ctrl + cmd - j: open -a Journal
 shift + ctrl + cmd - d: open -a 'ChatGPT'
+shift + ctrl + cmd - o: open -a 'Calendar'
