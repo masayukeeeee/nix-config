@@ -4,6 +4,34 @@
             "complex_modifications": {
                 "rules": [
                     {
+                        "description": "Open Clipboard History with Ctrl+Shift+Cmd+p",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "p",
+                                    "modifiers": { "mandatory": ["control", "shift", "command"] }
+                                },
+                                "parameters": { "basic.to_delayed_action_delay_milliseconds": 100 },
+                                "to": [
+                                    {
+                                        "key_code": "spacebar",
+                                        "modifiers": ["command"]
+                                    }
+                                ],
+                                "to_delayed_action": {
+                                    "to_if_canceled": [],
+                                    "to_if_invoked": [
+                                        {
+                                            "key_code": "4",
+                                            "modifiers": ["command"]
+                                        }
+                                    ]
+                                },
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Fn + [ / ; ' を矢印キーに変換",
                         "manipulators": [
                             {

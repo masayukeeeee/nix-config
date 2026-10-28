@@ -67,7 +67,8 @@
 
   homebrew = {
     enable = true;
-    onActivation.cleanup = "zap";
+    # Homebrew no longer supports the --cleanup flag used by "zap"/"uninstall".
+    onActivation.cleanup = "none";
     brews = [
       "herdr"
       "ghq"
