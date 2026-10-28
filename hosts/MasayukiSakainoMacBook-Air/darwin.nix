@@ -71,6 +71,7 @@
     brews = [
       "herdr"
       "ghq"
+      "bitwarden-cli"
     ];
     casks = [
       "google-chrome"
