@@ -7,6 +7,8 @@
     vimAlias = true;
     
     withNodeJs = true;
+    withRuby = true;
+    withPython3 = true;
   };
 
   # 設定ファイルのリンク (Read-only)

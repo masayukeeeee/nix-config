@@ -15,10 +15,10 @@
     ];
 
     # Ctrl+T (ファイル検索) 
-    fileWidgetCommand = "fd --type f";
+    fileWidget.command = "fd --type f";
     
     # Alt+C (ディレクトリ移動) 
-    changeDirWidgetCommand = "fd --type d";
+    changeDirWidget.command = "fd --type d";
   };
 
   # fzfで使うツール(fdやbat)もついでに入れておくと便利です
