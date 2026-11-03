@@ -43,10 +43,7 @@
       # UV (Python管理はこれに統一)
       upy = "uv run python";
       uipy = "uv run ipython";
-      
-      # WiFi
-      nkdev-comeback = "networksetup -setairportnetwork en0 nk-dev KurolanK1";
-      
+            
       # Tmux
       tm = "tmux";      
     };
