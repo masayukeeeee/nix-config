@@ -13,7 +13,7 @@ in
     gh
     bat
     uv
-    gemini-cli
+    antigravity-cli
     bitwarden-cli
     gcc
     gnumake
