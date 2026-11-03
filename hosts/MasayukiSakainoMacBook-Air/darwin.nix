@@ -73,6 +73,7 @@
       "herdr"
       "ghq"
       "bitwarden-cli"
+      "crit"
     ];
     casks = [
       "google-chrome"
