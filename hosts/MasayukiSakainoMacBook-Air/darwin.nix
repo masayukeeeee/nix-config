@@ -79,6 +79,7 @@
       "google-chrome"
       "bitwarden"
       "notion"
+      "obsidian"
       "slack"
       "karabiner-elements"
       "iterm2"
