@@ -12,6 +12,7 @@
     ../../modules/apps/fzf/default.nix
     ../../modules/apps/zsh/default.nix
     ../../modules/apps/tmux/default.nix
+    ../../modules/apps/direnv/default.nix
   ];
 }
 
